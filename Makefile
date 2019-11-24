@@ -6,7 +6,7 @@
 
 ## Creates default structure for new project
 add-project:
-  cookiecutter project-template
+	cookiecutter project-template
 
 #################################################################################
 # Self Documenting Commands                                                     #
