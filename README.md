@@ -3,7 +3,7 @@ A collection of data science projects.
 
 ## Usage
 ### Requirements
-* Python 3.5 or later.
+* Python 3.7 or later.
 * [Cookiecutter](https://cookiecutter.readthedocs.io) for project templating.
 
 ### Create new project
