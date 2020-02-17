@@ -22,6 +22,11 @@ lint: ## Lint source code.
 test: ## Run tests.
 	@pytest
 
+get-data: ## Download data.
+	@kaggle competitions download -c digit-recognizer -p data/raw
+	@unzip -o data/raw/*.zip -d data/raw
+	@rm data/raw/*.zip
+
 #################################################################################
 # Self Documenting Commands                                                     #
 #################################################################################
