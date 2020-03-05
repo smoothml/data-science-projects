@@ -1,0 +1,14 @@
+# local package
+-e ./src
+
+# external requirements
+python-dotenv>=0.10.0
+flake8
+pytest
+jupyter
+kaggle
+matplotlib
+numpy
+pandas
+scikit-learn
+seaborn
